@@ -45,4 +45,5 @@ for aminoacid in sliced_rna:
                 protein += 'R'     
             case 'CUU' | 'CUC' | 'CUA' | 'UUA' | 'UUG' | 'CUG':
                 protein += 'L'
+                
 print(protein)
