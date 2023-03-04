@@ -25,8 +25,8 @@ proteins = {
 }
 for aminoacid in sliced_rna:
     if len(aminoacid) == 3:
-        for protein_code, kodons in proteins.items():
-            if aminoacid in kodons:
-                protein_string += protein_code
+        for protein_id, codons in proteins.items():
+            if aminoacid in codons:
+                protein_string += protein_id
                 
 print(protein_string)
